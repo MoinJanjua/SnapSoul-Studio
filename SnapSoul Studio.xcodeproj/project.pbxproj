@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370DFBD096A56288CC4C5CFD /* Pods_SnapSoul_Studio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73009D8A0441A71542E3288A /* Pods_SnapSoul_Studio.framework */; };
+		4E0B4B1D2D269C9C003DF07D /* BgRemovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B1C2D269C9C003DF07D /* BgRemovalViewController.swift */; };
+		4E0B4B212D26AD1F003DF07D /* BackgroundremoerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B202D26AD1F003DF07D /* BackgroundremoerViewController.swift */; };
+		4E0B4B342D26B034003DF07D /* CVPixelBuffer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B222D26B033003DF07D /* CVPixelBuffer+Create.swift */; };
+		4E0B4B352D26B034003DF07D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B232D26B033003DF07D /* UIImage+Extensions.swift */; };
+		4E0B4B362D26B034003DF07D /* CVPixelBuffer+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B242D26B033003DF07D /* CVPixelBuffer+Resize.swift */; };
+		4E0B4B372D26B034003DF07D /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B252D26B034003DF07D /* CGImage+RawBytes.swift */; };
+		4E0B4B382D26B034003DF07D /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B262D26B034003DF07D /* NonMaxSuppression.swift */; };
+		4E0B4B392D26B034003DF07D /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B272D26B034003DF07D /* DeepLabV3.mlmodel */; };
+		4E0B4B3A2D26B034003DF07D /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B282D26B034003DF07D /* Predictions.swift */; };
+		4E0B4B3B2D26B034003DF07D /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B292D26B034003DF07D /* UIImage+RawBytes.swift */; };
+		4E0B4B3C2D26B034003DF07D /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B2A2D26B034003DF07D /* CGImagePropertyOrientation.swift */; };
+		4E0B4B3D2D26B034003DF07D /* CoreML+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B2B2D26B034003DF07D /* CoreML+Combine.swift */; };
+		4E0B4B3E2D26B034003DF07D /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B2C2D26B034003DF07D /* MLMultiArray+Image.swift */; };
+		4E0B4B3F2D26B034003DF07D /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B2D2D26B034003DF07D /* MLMultiArray+Helpers.swift */; };
+		4E0B4B402D26B034003DF07D /* CVPixelBuffer+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B2E2D26B034003DF07D /* CVPixelBuffer+Rotate.swift */; };
+		4E0B4B412D26B034003DF07D /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B2F2D26B034003DF07D /* Math.swift */; };
+		4E0B4B422D26B034003DF07D /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B302D26B034003DF07D /* UIImage+CVPixelBuffer.swift */; };
+		4E0B4B432D26B034003DF07D /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B312D26B034003DF07D /* Array+Extensions.swift */; };
+		4E0B4B442D26B034003DF07D /* MLModel+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B322D26B034003DF07D /* MLModel+Images.swift */; };
+		4E0B4B452D26B034003DF07D /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B4B332D26B034003DF07D /* CGImage+CVPixelBuffer.swift */; };
+		4E913D0C2D27C99F0049B734 /* CollageSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E913D0B2D27C99F0049B734 /* CollageSetViewController.swift */; };
+		4E913D0F2D27C9EB0049B734 /* SelectlayoutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E913D0D2D27C9EB0049B734 /* SelectlayoutCollectionViewCell.swift */; };
+		4E913D102D27C9EB0049B734 /* SelectLayoutcollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E913D0E2D27C9EB0049B734 /* SelectLayoutcollageViewController.swift */; };
+		4EA55B572D26825E0072A9D9 /* VisionarywallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA55B562D26825E0072A9D9 /* VisionarywallpaperViewController.swift */; };
+		4EA55B5B2D26858B0072A9D9 /* VisionaryWallsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA55B5A2D26858B0072A9D9 /* VisionaryWallsCollectionViewCell.swift */; };
+		4EB5F4462D2BC4F100A88ED6 /* AVPlayer+isPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5F4422D2BC4F100A88ED6 /* AVPlayer+isPlaying.swift */; };
+		4EB5F4472D2BC4F100A88ED6 /* VideoTrimmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5F4432D2BC4F100A88ED6 /* VideoTrimmerViewController.swift */; };
+		4EB5F4482D2BC4F100A88ED6 /* AssetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5F4442D2BC4F100A88ED6 /* AssetSelectionViewController.swift */; };
+		4EB5F4492D2BC4F100A88ED6 /* VideoCropperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5F4452D2BC4F100A88ED6 /* VideoCropperViewController.swift */; };
+		4EEDD7F02D27F852006D2B86 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD7EC2D27F852006D2B86 /* SideMenuTableViewCell.swift */; };
+		4EEDD7F12D27F852006D2B86 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD7ED2D27F852006D2B86 /* FeedbackViewController.swift */; };
+		4EEDD7F22D27F852006D2B86 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD7EE2D27F852006D2B86 /* AboutUsViewController.swift */; };
+		4EEDD7F32D27F852006D2B86 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDD7EF2D27F852006D2B86 /* SettingsViewController.swift */; };
+		4EF001052D25558300E634AB /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF001042D25558300E634AB /* DashboardCollectionViewCell.swift */; };
+		4EF001092D255E0500E634AB /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF001072D255E0500E634AB /* iOSDropDown.swift */; };
+		4EF0010A2D255E0500E634AB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF001082D255E0500E634AB /* Helper.swift */; };
+		4EFA17CC2D268AF5006D4941 /* DetailvisionaryWallpaperVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA17CB2D268AF5006D4941 /* DetailvisionaryWallpaperVCViewController.swift */; };
+		4EFE33E62D2540620039E811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE33E52D2540620039E811 /* AppDelegate.swift */; };
+		4EFE33E82D2540620039E811 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE33E72D2540620039E811 /* SceneDelegate.swift */; };
+		4EFE33EA2D2540620039E811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE33E92D2540620039E811 /* ViewController.swift */; };
+		4EFE33ED2D2540620039E811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE33EB2D2540620039E811 /* Main.storyboard */; };
+		4EFE33EF2D2540640039E811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE33EE2D2540640039E811 /* Assets.xcassets */; };
+		4EFE33F22D2540640039E811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE33F02D2540640039E811 /* LaunchScreen.storyboard */; };
+		4EFE33FB2D2540CC0039E811 /* WelcomeSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE33FA2D2540CC0039E811 /* WelcomeSViewController.swift */; };
+		4EFE33FE2D254FF20039E811 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE33FD2D254FF20039E811 /* DashboardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22FEE5F45AD4174AC71CC482 /* Pods-SnapSoul Studio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapSoul Studio.debug.xcconfig"; path = "Target Support Files/Pods-SnapSoul Studio/Pods-SnapSoul Studio.debug.xcconfig"; sourceTree = "<group>"; };
+		4E0B4B1C2D269C9C003DF07D /* BgRemovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgRemovalViewController.swift; sourceTree = "<group>"; };
+		4E0B4B202D26AD1F003DF07D /* BackgroundremoerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundremoerViewController.swift; sourceTree = "<group>"; };
+		4E0B4B222D26B033003DF07D /* CVPixelBuffer+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Create.swift"; sourceTree = "<group>"; };
+		4E0B4B232D26B033003DF07D /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		4E0B4B242D26B033003DF07D /* CVPixelBuffer+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Resize.swift"; sourceTree = "<group>"; };
+		4E0B4B252D26B034003DF07D /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		4E0B4B262D26B034003DF07D /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		4E0B4B272D26B034003DF07D /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		4E0B4B282D26B034003DF07D /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		4E0B4B292D26B034003DF07D /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		4E0B4B2A2D26B034003DF07D /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		4E0B4B2B2D26B034003DF07D /* CoreML+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreML+Combine.swift"; sourceTree = "<group>"; };
+		4E0B4B2C2D26B034003DF07D /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		4E0B4B2D2D26B034003DF07D /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		4E0B4B2E2D26B034003DF07D /* CVPixelBuffer+Rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Rotate.swift"; sourceTree = "<group>"; };
+		4E0B4B2F2D26B034003DF07D /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		4E0B4B302D26B034003DF07D /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		4E0B4B312D26B034003DF07D /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		4E0B4B322D26B034003DF07D /* MLModel+Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLModel+Images.swift"; sourceTree = "<group>"; };
+		4E0B4B332D26B034003DF07D /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		4E913D0B2D27C99F0049B734 /* CollageSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageSetViewController.swift; sourceTree = "<group>"; };
+		4E913D0D2D27C9EB0049B734 /* SelectlayoutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectlayoutCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E913D0E2D27C9EB0049B734 /* SelectLayoutcollageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLayoutcollageViewController.swift; sourceTree = "<group>"; };
+		4EA55B562D26825E0072A9D9 /* VisionarywallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionarywallpaperViewController.swift; sourceTree = "<group>"; };
+		4EA55B5A2D26858B0072A9D9 /* VisionaryWallsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionaryWallsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EB5F4422D2BC4F100A88ED6 /* AVPlayer+isPlaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+isPlaying.swift"; sourceTree = "<group>"; };
+		4EB5F4432D2BC4F100A88ED6 /* VideoTrimmerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTrimmerViewController.swift; sourceTree = "<group>"; };
+		4EB5F4442D2BC4F100A88ED6 /* AssetSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetSelectionViewController.swift; sourceTree = "<group>"; };
+		4EB5F4452D2BC4F100A88ED6 /* VideoCropperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCropperViewController.swift; sourceTree = "<group>"; };
+		4EEDD7EC2D27F852006D2B86 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		4EEDD7ED2D27F852006D2B86 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4EEDD7EE2D27F852006D2B86 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		4EEDD7EF2D27F852006D2B86 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4EF001042D25558300E634AB /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EF001072D255E0500E634AB /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		4EF001082D255E0500E634AB /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4EFA17CB2D268AF5006D4941 /* DetailvisionaryWallpaperVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailvisionaryWallpaperVCViewController.swift; sourceTree = "<group>"; };
+		4EFE33E22D2540620039E811 /* SnapSoul Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapSoul Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFE33E52D2540620039E811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EFE33E72D2540620039E811 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EFE33E92D2540620039E811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFE33EC2D2540620039E811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFE33EE2D2540640039E811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EFE33F12D2540640039E811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EFE33F32D2540640039E811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFE33FA2D2540CC0039E811 /* WelcomeSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSViewController.swift; sourceTree = "<group>"; };
+		4EFE33FD2D254FF20039E811 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		73009D8A0441A71542E3288A /* Pods_SnapSoul_Studio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapSoul_Studio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A6FBECC8BA4E445F306C1D /* Pods-SnapSoul Studio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapSoul Studio.release.xcconfig"; path = "Target Support Files/Pods-SnapSoul Studio/Pods-SnapSoul Studio.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFE33DF2D2540620039E811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DFBD096A56288CC4C5CFD /* Pods_SnapSoul_Studio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E0B4B1B2D269C77003DF07D /* BgRemover */ = {
+			isa = PBXGroup;
+			children = (
+				4E0B4B1C2D269C9C003DF07D /* BgRemovalViewController.swift */,
+				4E0B4B202D26AD1F003DF07D /* BackgroundremoerViewController.swift */,
+			);
+			path = BgRemover;
+			sourceTree = "<group>";
+		};
+		4E913D052D27C29F0049B734 /* CollegeLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4E913D0E2D27C9EB0049B734 /* SelectLayoutcollageViewController.swift */,
+				4E913D0D2D27C9EB0049B734 /* SelectlayoutCollectionViewCell.swift */,
+			);
+			path = CollegeLayout;
+			sourceTree = "<group>";
+		};
+		4E913D0A2D27C8DA0049B734 /* CollageSet */ = {
+			isa = PBXGroup;
+			children = (
+				4E913D0B2D27C99F0049B734 /* CollageSetViewController.swift */,
+			);
+			path = CollageSet;
+			sourceTree = "<group>";
+		};
+		4EA55B522D2681CC0072A9D9 /* Wallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				4EA55B562D26825E0072A9D9 /* VisionarywallpaperViewController.swift */,
+				4EA55B5A2D26858B0072A9D9 /* VisionaryWallsCollectionViewCell.swift */,
+				4EFA17CB2D268AF5006D4941 /* DetailvisionaryWallpaperVCViewController.swift */,
+			);
+			path = Wallpapers;
+			sourceTree = "<group>";
+		};
+		4EB5F4412D2BC4B200A88ED6 /* VideoEditing */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5F4442D2BC4F100A88ED6 /* AssetSelectionViewController.swift */,
+				4EB5F4422D2BC4F100A88ED6 /* AVPlayer+isPlaying.swift */,
+				4EB5F4452D2BC4F100A88ED6 /* VideoCropperViewController.swift */,
+				4EB5F4432D2BC4F100A88ED6 /* VideoTrimmerViewController.swift */,
+			);
+			path = VideoEditing;
+			sourceTree = "<group>";
+		};
+		4EEDD7EB2D27F803006D2B86 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				4EEDD7EE2D27F852006D2B86 /* AboutUsViewController.swift */,
+				4EEDD7ED2D27F852006D2B86 /* FeedbackViewController.swift */,
+				4EEDD7EF2D27F852006D2B86 /* SettingsViewController.swift */,
+				4EEDD7EC2D27F852006D2B86 /* SideMenuTableViewCell.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		4EF001062D255CE200E634AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4E0B4B312D26B034003DF07D /* Array+Extensions.swift */,
+				4E0B4B332D26B034003DF07D /* CGImage+CVPixelBuffer.swift */,
+				4E0B4B252D26B034003DF07D /* CGImage+RawBytes.swift */,
+				4E0B4B2A2D26B034003DF07D /* CGImagePropertyOrientation.swift */,
+				4E0B4B2B2D26B034003DF07D /* CoreML+Combine.swift */,
+				4E0B4B222D26B033003DF07D /* CVPixelBuffer+Create.swift */,
+				4E0B4B242D26B033003DF07D /* CVPixelBuffer+Resize.swift */,
+				4E0B4B2E2D26B034003DF07D /* CVPixelBuffer+Rotate.swift */,
+				4E0B4B272D26B034003DF07D /* DeepLabV3.mlmodel */,
+				4E0B4B2F2D26B034003DF07D /* Math.swift */,
+				4E0B4B322D26B034003DF07D /* MLModel+Images.swift */,
+				4E0B4B2D2D26B034003DF07D /* MLMultiArray+Helpers.swift */,
+				4E0B4B2C2D26B034003DF07D /* MLMultiArray+Image.swift */,
+				4E0B4B262D26B034003DF07D /* NonMaxSuppression.swift */,
+				4E0B4B282D26B034003DF07D /* Predictions.swift */,
+				4E0B4B302D26B034003DF07D /* UIImage+CVPixelBuffer.swift */,
+				4E0B4B232D26B033003DF07D /* UIImage+Extensions.swift */,
+				4E0B4B292D26B034003DF07D /* UIImage+RawBytes.swift */,
+				4EF001082D255E0500E634AB /* Helper.swift */,
+				4EF001072D255E0500E634AB /* iOSDropDown.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4EFE33D92D2540620039E811 = {
+			isa = PBXGroup;
+			children = (
+				4EFE33E42D2540620039E811 /* SnapSoul Studio */,
+				4EFE33E32D2540620039E811 /* Products */,
+				582BF2FB9A2509A54B26D732 /* Pods */,
+				51F7ED8E1FCB6DE4F42ADCB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFE33E32D2540620039E811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE33E22D2540620039E811 /* SnapSoul Studio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFE33E42D2540620039E811 /* SnapSoul Studio */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5F4412D2BC4B200A88ED6 /* VideoEditing */,
+				4EEDD7EB2D27F803006D2B86 /* AppSettings */,
+				4E913D0A2D27C8DA0049B734 /* CollageSet */,
+				4E913D052D27C29F0049B734 /* CollegeLayout */,
+				4E0B4B1B2D269C77003DF07D /* BgRemover */,
+				4EA55B522D2681CC0072A9D9 /* Wallpapers */,
+				4EF001062D255CE200E634AB /* Helper */,
+				4EFE33FC2D254FD40039E811 /* DasboardScreen */,
+				4EFE33F92D2540890039E811 /* HomeScreen */,
+				4EFE33E52D2540620039E811 /* AppDelegate.swift */,
+				4EFE33E72D2540620039E811 /* SceneDelegate.swift */,
+				4EFE33E92D2540620039E811 /* ViewController.swift */,
+				4EFE33EB2D2540620039E811 /* Main.storyboard */,
+				4EFE33EE2D2540640039E811 /* Assets.xcassets */,
+				4EFE33F02D2540640039E811 /* LaunchScreen.storyboard */,
+				4EFE33F32D2540640039E811 /* Info.plist */,
+			);
+			path = "SnapSoul Studio";
+			sourceTree = "<group>";
+		};
+		4EFE33F92D2540890039E811 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE33FA2D2540CC0039E811 /* WelcomeSViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		4EFE33FC2D254FD40039E811 /* DasboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE33FD2D254FF20039E811 /* DashboardViewController.swift */,
+				4EF001042D25558300E634AB /* DashboardCollectionViewCell.swift */,
+			);
+			path = DasboardScreen;
+			sourceTree = "<group>";
+		};
+		51F7ED8E1FCB6DE4F42ADCB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73009D8A0441A71542E3288A /* Pods_SnapSoul_Studio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582BF2FB9A2509A54B26D732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22FEE5F45AD4174AC71CC482 /* Pods-SnapSoul Studio.debug.xcconfig */,
+				E1A6FBECC8BA4E445F306C1D /* Pods-SnapSoul Studio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFE33E12D2540620039E811 /* SnapSoul Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFE33F62D2540640039E811 /* Build configuration list for PBXNativeTarget "SnapSoul Studio" */;
+			buildPhases = (
+				4CF49B9A2F8514EF29633C44 /* [CP] Check Pods Manifest.lock */,
+				4EFE33DE2D2540620039E811 /* Sources */,
+				4EFE33DF2D2540620039E811 /* Frameworks */,
+				4EFE33E02D2540620039E811 /* Resources */,
+				89A2F2BE959A81969FFD168D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnapSoul Studio";
+			productName = "SnapSoul Studio";
+			productReference = 4EFE33E22D2540620039E811 /* SnapSoul Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFE33DA2D2540620039E811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4EFE33E12D2540620039E811 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 4EFE33DD2D2540620039E811 /* Build configuration list for PBXProject "SnapSoul Studio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFE33D92D2540620039E811;
+			productRefGroup = 4EFE33E32D2540620039E811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFE33E12D2540620039E811 /* SnapSoul Studio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFE33E02D2540620039E811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFE33F22D2540640039E811 /* LaunchScreen.storyboard in Resources */,
+				4EFE33EF2D2540640039E811 /* Assets.xcassets in Resources */,
+				4EFE33ED2D2540620039E811 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CF49B9A2F8514EF29633C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapSoul Studio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A2F2BE959A81969FFD168D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapSoul Studio/Pods-SnapSoul Studio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapSoul Studio/Pods-SnapSoul Studio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapSoul Studio/Pods-SnapSoul Studio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFE33DE2D2540620039E811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0B4B3A2D26B034003DF07D /* Predictions.swift in Sources */,
+				4EFE33EA2D2540620039E811 /* ViewController.swift in Sources */,
+				4E0B4B432D26B034003DF07D /* Array+Extensions.swift in Sources */,
+				4E0B4B452D26B034003DF07D /* CGImage+CVPixelBuffer.swift in Sources */,
+				4EEDD7F22D27F852006D2B86 /* AboutUsViewController.swift in Sources */,
+				4EA55B5B2D26858B0072A9D9 /* VisionaryWallsCollectionViewCell.swift in Sources */,
+				4EB5F4472D2BC4F100A88ED6 /* VideoTrimmerViewController.swift in Sources */,
+				4EA55B572D26825E0072A9D9 /* VisionarywallpaperViewController.swift in Sources */,
+				4E913D102D27C9EB0049B734 /* SelectLayoutcollageViewController.swift in Sources */,
+				4EF001092D255E0500E634AB /* iOSDropDown.swift in Sources */,
+				4E913D0F2D27C9EB0049B734 /* SelectlayoutCollectionViewCell.swift in Sources */,
+				4E0B4B372D26B034003DF07D /* CGImage+RawBytes.swift in Sources */,
+				4E0B4B212D26AD1F003DF07D /* BackgroundremoerViewController.swift in Sources */,
+				4E0B4B392D26B034003DF07D /* DeepLabV3.mlmodel in Sources */,
+				4EF001052D25558300E634AB /* DashboardCollectionViewCell.swift in Sources */,
+				4E0B4B442D26B034003DF07D /* MLModel+Images.swift in Sources */,
+				4EEDD7F02D27F852006D2B86 /* SideMenuTableViewCell.swift in Sources */,
+				4E0B4B3D2D26B034003DF07D /* CoreML+Combine.swift in Sources */,
+				4EB5F4462D2BC4F100A88ED6 /* AVPlayer+isPlaying.swift in Sources */,
+				4E0B4B3F2D26B034003DF07D /* MLMultiArray+Helpers.swift in Sources */,
+				4E0B4B422D26B034003DF07D /* UIImage+CVPixelBuffer.swift in Sources */,
+				4E913D0C2D27C99F0049B734 /* CollageSetViewController.swift in Sources */,
+				4E0B4B412D26B034003DF07D /* Math.swift in Sources */,
+				4E0B4B3B2D26B034003DF07D /* UIImage+RawBytes.swift in Sources */,
+				4EEDD7F32D27F852006D2B86 /* SettingsViewController.swift in Sources */,
+				4EFE33FB2D2540CC0039E811 /* WelcomeSViewController.swift in Sources */,
+				4E0B4B362D26B034003DF07D /* CVPixelBuffer+Resize.swift in Sources */,
+				4E0B4B1D2D269C9C003DF07D /* BgRemovalViewController.swift in Sources */,
+				4EFE33FE2D254FF20039E811 /* DashboardViewController.swift in Sources */,
+				4E0B4B402D26B034003DF07D /* CVPixelBuffer+Rotate.swift in Sources */,
+				4EEDD7F12D27F852006D2B86 /* FeedbackViewController.swift in Sources */,
+				4E0B4B3C2D26B034003DF07D /* CGImagePropertyOrientation.swift in Sources */,
+				4EFE33E62D2540620039E811 /* AppDelegate.swift in Sources */,
+				4EFE33E82D2540620039E811 /* SceneDelegate.swift in Sources */,
+				4EFA17CC2D268AF5006D4941 /* DetailvisionaryWallpaperVCViewController.swift in Sources */,
+				4EB5F4492D2BC4F100A88ED6 /* VideoCropperViewController.swift in Sources */,
+				4EB5F4482D2BC4F100A88ED6 /* AssetSelectionViewController.swift in Sources */,
+				4E0B4B352D26B034003DF07D /* UIImage+Extensions.swift in Sources */,
+				4E0B4B3E2D26B034003DF07D /* MLMultiArray+Image.swift in Sources */,
+				4EF0010A2D255E0500E634AB /* Helper.swift in Sources */,
+				4E0B4B382D26B034003DF07D /* NonMaxSuppression.swift in Sources */,
+				4E0B4B342D26B034003DF07D /* CVPixelBuffer+Create.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EFE33EB2D2540620039E811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFE33EC2D2540620039E811 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFE33F02D2540640039E811 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFE33F12D2540640039E811 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFE33F42D2540640039E811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EFE33F52D2540640039E811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFE33F72D2540640039E811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FEE5F45AD4174AC71CC482 /* Pods-SnapSoul Studio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FK6R24R96Z;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SnapSoul Studio/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SnapSoul-Studio.ms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4EFE33F82D2540640039E811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A6FBECC8BA4E445F306C1D /* Pods-SnapSoul Studio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFL944BJ2A;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SnapSoul Studio/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SnapSoul Studio requires access to your camera and photo library to import and edit media, providing a seamless and personalized creative experience.";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SnapSoul-Studio.ms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFE33DD2D2540620039E811 /* Build configuration list for PBXProject "SnapSoul Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFE33F42D2540640039E811 /* Debug */,
+				4EFE33F52D2540640039E811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFE33F62D2540640039E811 /* Build configuration list for PBXNativeTarget "SnapSoul Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFE33F72D2540640039E811 /* Debug */,
+				4EFE33F82D2540640039E811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFE33DA2D2540620039E811 /* Project object */;
+}

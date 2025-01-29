@@ -1,0 +1,26 @@
+PODS:
+  - iOSPhotoEditor (1.0.0)
+  - PryntTrimmerView (4.0.2)
+  - ZLImageEditor (2.0.3):
+    - ZLImageEditor/Core (= 2.0.3)
+  - ZLImageEditor/Core (2.0.3)
+
+DEPENDENCIES:
+  - iOSPhotoEditor
+  - PryntTrimmerView
+  - ZLImageEditor
+
+SPEC REPOS:
+  trunk:
+    - iOSPhotoEditor
+    - PryntTrimmerView
+    - ZLImageEditor
+
+SPEC CHECKSUMS:
+  iOSPhotoEditor: 2951f35246a31dcb428b6292248a9c065582d03e
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  ZLImageEditor: 56ca892136c1c2d9a4e5ad6c4b961259a5219bef
+
+PODFILE CHECKSUM: 90dd73b14435ae8473581a6408b7c9255d64a7f1
+
+COCOAPODS: 1.16.2
